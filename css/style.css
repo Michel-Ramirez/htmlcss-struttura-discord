@@ -152,6 +152,20 @@ header{
 .container-footer{
     background-color: mediumaquamarine;
     min-height: 100px;
-    
+    justify-content: space-between;
+}
+
+#logo-footer{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+#btn{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    border: 2px dashed black;
 }
 
