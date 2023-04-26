@@ -124,7 +124,14 @@ header{
 .container-column{
     background-color: aqua;
     border: 3px dashed white;
-    height: 400px;
-    width: 100px;
+    min-height: 400px;
+    width: 70%;
+    flex-direction: row;
 
+}
+
+.col-left, .col-medium-left, .column-right, .col-right{
+    width: calc(100% / 4);
+    min-height: 400px;
+    border: 2px dashed black;
 }
