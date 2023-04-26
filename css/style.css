@@ -6,9 +6,71 @@
     box-sizing: border-box;
 }
 
+
+
 /* GENERICS */
 
 header{
     height: 100px;
     background-color: mediumaquamarine;
+
+}
+
+
+
+
+/* UTILITY */
+
+.d-flex{
+    display: flex;
+}
+
+.c-center{
+    max-width: 1080px;
+    margin: auto;
+}
+
+/* HEADER */
+
+.container-header{
+    background-color: gold;
+
+    
+}
+
+.logo{
+    width: 25%;
+    height: 50px;
+    border: 2px dashed black;
+
+
+}
+ 
+.nav-link{
+    height: 50px;
+    width: 50%;
+    border: 2px dashed black;
+
+
+}
+
+.login{
+    height: 50px;
+    width: 25%;
+    border: 2px dashed black;
+
+}
+
+/* ------------------------------------------------------ */
+
+.section-head{
+    min-height: 500px;
+    background-color: blue;
+}
+
+.content-head{
+    width: 60%;
+    height: 400px;
+    background-color: pink;
+    border: 2px dashed black;
 }
