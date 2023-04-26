@@ -45,22 +45,20 @@ header{
 
 .bg-gray{
     background-color: gray;
+    padding: 50px;
 }
 
 /* HEADER */
 
 .container-header{
     background-color: gold;
-
-    
+   
 }
 
 .logo{
     width: 25%;
     height: 50px;
     border: 2px dashed black;
-
-
 }
  
 .nav-link{
@@ -96,17 +94,37 @@ header{
 
 .main-content{
     flex-direction: row;
-    padding: 50px;
+    padding:50px    
 }
 
 .main-content-reverse{
-    flex-direction: row-reverse;
-    padding: 50px;
+    flex-direction: row-reverse;    
 }
 
 .content{
-    min-height: 800px;
+    min-height:600px;
     background-color: green;
     border: 2px dashed black;
     padding: 50px;
+}
+
+/* COLUMN */
+
+.column{
+    background-color: #23272A;
+}
+
+.column-social{
+    background-color: pink;
+    border: 2px dashed black;
+    min-height: 400px;
+    width: 30%;
+}
+
+.container-column{
+    background-color: aqua;
+    border: 3px dashed white;
+    height: 400px;
+    width: 100px;
+
 }
