@@ -13,10 +13,23 @@
 header{
     height: 100px;
     background-color: mediumaquamarine;
-
+    
 }
 
 
+.column-left{
+    min-height: 400px;
+    width: 60%;
+    background-color: lightskyblue;
+    border: 2px dashed black;
+}
+
+.column-right{
+    min-height: 400px;
+    width: 40%;
+    background-color: pink;
+    border: 2px dashed black;
+}
 
 
 /* UTILITY */
@@ -28,6 +41,10 @@ header{
 .c-center{
     max-width: 1080px;
     margin: auto;
+}
+
+.bg-gray{
+    background-color: gray;
 }
 
 /* HEADER */
@@ -61,7 +78,7 @@ header{
 
 }
 
-/* ------------------------------------------------------ */
+/* SECTION HEAD */
 
 .section-head{
     min-height: 500px;
@@ -71,6 +88,25 @@ header{
 .content-head{
     width: 60%;
     height: 400px;
-    background-color: pink;
+    background-color: plum;
     border: 2px dashed black;
+}
+
+/* MAIN COLUMN AND CONTENT */
+
+.main-content{
+    flex-direction: row;
+    padding: 50px;
+}
+
+.main-content-reverse{
+    flex-direction: row-reverse;
+    padding: 50px;
+}
+
+.content{
+    min-height: 800px;
+    background-color: green;
+    border: 2px dashed black;
+    padding: 50px;
 }
