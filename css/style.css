@@ -144,9 +144,8 @@ header{
 .bg-footer{
     background-color: #23272A;
     min-height: 150px;
-    border-top: 10px solid gray;
-    border-bottom: 10px solid gray;
-    align-items: flex-end;
+    border-top: 5px solid gray;
+    padding-top: 15px;
 }   
 
 .container-footer{
