@@ -146,6 +146,7 @@ header{
     min-height: 150px;
     border-top: 10px solid gray;
     border-bottom: 10px solid gray;
+    align-items: flex-end;
 }   
 
 .container-footer{
@@ -153,6 +154,7 @@ header{
     min-height: 100px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #logo-footer{
